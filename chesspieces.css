@@ -1,0 +1,83 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    p {font-family: "Arial";
+    }
+    h2{
+      font-family: "Arial";
+    }
+    body {
+       width: 800px;
+       height: 100%;
+       background-color: #ffedca;
+    }
+    header {
+        font-family: "Arial";
+        padding-left: 40px;
+        border: none;
+        font-size: 24px;
+        margin: 20px;
+        display: block;
+    }
+    nav {
+      font-family: "Arial";
+      padding-left: 40px;
+      margin: 20px;
+      float: left;
+      width: 100%;
+    }
+    nav ul {
+        padding-left: 20px;
+        float: left;
+        border-bottom: solid black;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+        display:block;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: blue;
+    }
+    img {
+    	max-width:100%;
+      max-height:300px;
+    }
+    section {
+        display: block;
+        float: left;
+    }
+    article{
+      width:600px;
+      object-fit: contain;
+      float:left;
+      display:block;
+    }
+
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
